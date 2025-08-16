@@ -13,3 +13,7 @@ if __name__ == '__main__':
     print(s_new)
 
 ''' input would be first string like  abracadabra then the position and character like - 5,k'''
+# another way to do this is
+'''>>> string = string[:5] + "k" + string[6:]
+>>> print string
+abrackdabra'''
